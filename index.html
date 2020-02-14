@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>        
+    <link rel='stylesheet' type='text/css' href='./src/css/bootstrap.min.css' />
+    <link rel='stylesheet' type='text/css' href='./src/css/style.css' />    
+    <title>Inicio</title>
+</head>
+<body>
+    <header class='container-fluid'>        
+        <h1 class='display-4 text-center font-weight-bold'>Tarea Online 3</h1>        
+    </header>
+    
+    <section class='container rounded'>
+        <!-- MIGAS DE PAN --> 
+        <table class='w-100'>
+            <tr><td>
+                    <p><a class='breadcrumb-item gray' disabled>Enunciado</p>
+                </td>                
+            </tr>
+        </table>
+  
+        <!-- PESTAÑAS -->
+        <ul class='nav nav-tabs text-center'>
+            <li class='nav-item w-25'><a class='nav-link white' href='./e01/index.php'>Ejercicio 1</a></li>
+            <li class='nav-item w-25'><a class='nav-link white' href='./e02/index.php'>Ejercicio 2</a></li>
+            <li class='nav-item w-25'><a class='nav-link white' href='./e03/login/index.php'>Ejercicio 3</a></li>            
+        </ul>
+
+        <main>
+            <section class='padding-1-3 text-justify'><br />
+                <article><a class='card-link' href='./e01/index.php'>Ejercicio 1:</a> Almacena mediante cookies una serie de frutas 
+                    y verduras escogidas por el usuario. El usuario seleccionará frutas y verduras a partir de una lista (varios 
+                    check
+                    box) y mantendrá dichos alimentos escogidos durante una hora aunque cierre el navegador. Mediante 
+                    <a href='https://www.php.net/manual/en/function.setcookie.php'>setcookie()</a>, sin autenticación ni sesiones, 
+                    almacena los alimentos elegidos por el usuario y crea también opciones para modificar, eliminar y comprobar si 
+                    existe dicha cookie. Puedes ayudarte de los materiales de <a href='https://diego.com.es/cookies-en-php'>Diego Lázaro</a> 
+                    y de <a href='https://www.w3schools.com/php/php_cookies.asp'>W3Schools</a>.
+                </article><br />
+
+                <article><a class='card-link' href='./e02/index.php'>Ejercicio 2:</a> Crea un sitio web que resuelva los primeros cinco de estos 
+                    <a href='https://milq.github.io/cursos/fundprog/ud/06.html'>ejercicios sobre clases</a>. Se crearán cinco pestañas, en 
+                    cada una se resolverá un ejercicio. Añade una pestaña más explicando, con capturas, cómo se depura en PHP y muestra un 
+                    ejemplo.
+                </article><br />
+                
+                <article><a class='card-link' href='./e03/login/index.php'>Ejercicio 3:</a> Crea un balance sencillo de ingresos y gastos. Para 
+                    obtener el balance, habrá que registrarse como usuario en una base de datos y después iniciar sesión; las contraseñas 
+                    estarán almacenadas en hash mediante el algoritmo <a href='https://en.wikipedia.org/wiki/Bcrypt'>Bcrypt</a> (usa 
+                    <a href='https://www.php.net/manual/en/function.password-hash.php'>password_hash</a> y 
+                    <a href='https://www.php.net/manual/en/function.password-verify.php'>password_verify)</a>. Una vez iniciada la sesión 
+                    correctamente, el usuario introducirá, mediante formularios, una serie de ingresos y gastos, pulsará en Generar y, a 
+                    continuación, verá un informe similar en PDF. Usa <a href='https://github.com/mpdf/mpdf'>MPDF</a>, instalálo con 
+                    <a href='https://getcomposer.org/'>Composer</a> y aloja esta aplicación web en Heroku y en GitHub.
+                </article><br />
+                
+                <article>
+                    <span class='font-weight-bold'>Credenciales para acceder a la BBDD del ejercicio 3.<br /></span>
+                    Usuario: admin.<br />Password: 1234.<br /><br />                    
+                </article>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
+
+<a href=''></a>
